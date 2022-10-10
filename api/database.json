@@ -1,0 +1,71 @@
+{
+  "clowns": [
+    {
+      "id": "1",
+      "name": "Buttons"
+    },
+    {
+      "id": "2",
+      "name": "Lollipop"
+    }
+  ],
+  "reservations": [
+    {
+      "parentName": "Maya",
+      "childName": "Asher",
+      "attending": "5",
+      "address": "7989 hot ln",
+      "date": "2022-10-25",
+      "length": "4",
+      "id": 3
+    },
+    {
+      "parentName": "Tammy",
+      "childName": "Hannah",
+      "attending": "9",
+      "address": "123 Electric Ave",
+      "date": "2022-10-28",
+      "length": "7",
+      "id": 4
+    },
+    {
+      "parentName": "Lenny",
+      "childName": "Anna",
+      "attending": "6",
+      "address": "989 sljkdsk",
+      "date": "2022-10-29",
+      "length": "5",
+      "id": 5
+    }
+  ],
+  "completions": [
+    {
+      "reservationId": "3",
+      "clownId": "2",
+      "id": 2
+    },
+    {
+      "reservationId": "4",
+      "clownId": "1",
+      "id": 3
+    },
+    {
+      "reservationId": "3",
+      "clownId": "1",
+      "timestamp": 1665239635958,
+      "id": 4
+    },
+    {
+      "reservationId": "1",
+      "clownId": "2",
+      "timestamp": 1665239642799,
+      "id": 5
+    },
+    {
+      "reservationId": "4",
+      "clownId": "1",
+      "timestamp": 1665239647202,
+      "id": 6
+    }
+  ]
+}
